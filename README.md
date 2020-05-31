@@ -1,2 +1,2 @@
 # SNTIL
-ServiceNow related TIL (Today I Learned)
+ServiceNow TIL (Today I Learned)
