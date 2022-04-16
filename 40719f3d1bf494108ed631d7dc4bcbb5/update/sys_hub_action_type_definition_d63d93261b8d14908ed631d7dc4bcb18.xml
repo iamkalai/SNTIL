@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation>This is used to add issue as card to a project</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>1fec072a1b0d14908ed631d7dc4bcbdd</copied_from>
+        <copied_from_name>Github - Create Issue</copied_from_name>
+        <description>This is used to add issue as card to a project on Github</description>
+        <ih_action>false</ih_action>
+        <internal_name>github__create_project_card</internal_name>
+        <label_cache>[{"name":"{{action.title}}","label":"action➛Issue ID","type":"action","ref":""},{"name":"{{action.message}}","label":"action➛Message","type":"action","ref":""},{"name":"{{action.body}}","label":"action➛Body","type":"action","ref":""},{"name":"{{action.issue_id}}","label":"action➛Issue ID","type":"action","ref":""},{"name":"{{action.issue}}","label":"action➛Issue","type":"action","ref":""},{"name":"{{step[6089d677-44f1-4576-bf2a-1dd03a432a8a].variable}}","label":"step➛Create Card➛variable","type":"step","ref":""},{"name":"{{step[6089d677-44f1-4576-bf2a-1dd03a432a8a].id}}","label":"step➛Create Card➛id","type":"step","ref":""}]</label_cache>
+        <master_snapshot>78b0e7ea1b8d14908ed631d7dc4bcb6e</master_snapshot>
+        <name>Github - Create Project Card</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:43:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d63d93261b8d14908ed631d7dc4bcb18</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Github - Create Project Card</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_d63d93261b8d14908ed631d7dc4bcb18</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 14:38:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=d63d93261b8d14908ed631d7dc4bcb18"/>
+    <sys_element_mapping action="delete_multiple" query="id=d63d93261b8d14908ed631d7dc4bcb18"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>id</field>
+        <id>d63d93261b8d14908ed631d7dc4bcb18</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:43:46</sys_created_on>
+        <sys_id>aa3d57661b8d14908ed631d7dc4bcbc3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:54:01</sys_updated_on>
+        <table>var__m_sys_hub_action_output_d63d93261b8d14908ed631d7dc4bcb18</table>
+        <value>{{step[6089d677-44f1-4576-bf2a-1dd03a432a8a].id}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=d63d93261b8d14908ed631d7dc4bcb18^sys_idNOT IN5e3d57661b8d14908ed631d7dc4bcb9a"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Github - Create Project Card">d63d93261b8d14908ed631d7dc4bcb18</action>
+        <cid>6089d677-44f1-4576-bf2a-1dd03a432a8a</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create Card</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:43:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5e3d57661b8d14908ed631d7dc4bcb9a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:53:46</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5e3d57661b8d14908ed631d7dc4bcb9a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5e3d57661b8d14908ed631d7dc4bcb9a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:43:46</sys_created_on>
+        <sys_id>2e3d57661b8d14908ed631d7dc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:43:46</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5e3d57661b8d14908ed631d7dc4bcb9a</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:43:46</sys_created_on>
+        <sys_id>ee3d57661b8d14908ed631d7dc4bcbb6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:53:08</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+    outputs.id = restCall();
+
+    function restCall() {
+        var id = '';
+        try {
+            var card = {
+                "content_id": inputs.issue,
+                "content_type":"Issue"
+            };
+            var rest = new sn_ws.RESTMessageV2('x_0586_til.Github', 'Create Project Card');
+            rest.setStringParameterNoEscape('column_id', '9419507');
+            rest.setRequestBody(JSON.stringify(card));
+            var response = rest.execute();
+            var httpStatus = response.getStatusCode();
+            if (httpStatus == "201") {
+                var result = JSON.parse(response.getBody());
+                id = result.id;
+            }
+        } catch (ex) {
+            //var message = ex.message;
+            id = "";
+        }
+
+        return id;
+    }
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5e3d57661b8d14908ed631d7dc4bcb9a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>5e3d57661b8d14908ed631d7dc4bcb9a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:43:46</sys_created_on>
+        <sys_id>e23d57661b8d14908ed631d7dc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:43:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>5e3d57661b8d14908ed631d7dc4bcb9a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:43:46</sys_created_on>
+        <sys_id>ea3d57661b8d14908ed631d7dc4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:43:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_5e3d57661b8d14908ed631d7dc4bcb9a</table>
+        <value>{{action.body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>issue</field>
+        <id>5e3d57661b8d14908ed631d7dc4bcb9a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:53:09</sys_created_on>
+        <sys_id>735fdf2a1b8d14908ed631d7dc4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:53:09</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_5e3d57661b8d14908ed631d7dc4bcb9a</table>
+        <value>{{action.issue}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>5e3d57661b8d14908ed631d7dc4bcb9a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:43:46</sys_created_on>
+        <sys_id>aa3d57661b8d14908ed631d7dc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:43:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>5e3d57661b8d14908ed631d7dc4bcb9a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:43:46</sys_created_on>
+        <sys_id>ae3d57661b8d14908ed631d7dc4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:43:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_5e3d57661b8d14908ed631d7dc4bcb9a</table>
+        <value>{{action.title}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5e3d57661b8d14908ed631d7dc4bcb9a^id=5e3d57661b8d14908ed631d7dc4bcb9a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=5e3d57661b8d14908ed631d7dc4bcb9a"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=5e3d57661b8d14908ed631d7dc4bcb9a^sys_idNOT IN335fdf2a1b8d14908ed631d7dc4bcb81"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>issue</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Card">5e3d57661b8d14908ed631d7dc4bcb9a</model>
+        <model_id>5e3d57661b8d14908ed631d7dc4bcb9a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_5e3d57661b8d14908ed631d7dc4bcb9a</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:53:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>335fdf2a1b8d14908ed631d7dc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:53:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=5e3d57661b8d14908ed631d7dc4bcb9a^sys_idNOT INae3d57661b8d14908ed631d7dc4bcbab"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4ac31aba-ae42-4281-91ae-1306259e9efd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Card">5e3d57661b8d14908ed631d7dc4bcb9a</model>
+        <model_id>5e3d57661b8d14908ed631d7dc4bcb9a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_5e3d57661b8d14908ed631d7dc4bcb9a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:43:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ae3d57661b8d14908ed631d7dc4bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:43:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5e3d57661b8d14908ed631d7dc4bcb9a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_5e3d57661b8d14908ed631d7dc4bcb9a^sys_idNOT INea3d57661b8d14908ed631d7dc4bcbb1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>id</element>
+        <help/>
+        <hint/>
+        <label>id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_5e3d57661b8d14908ed631d7dc4bcb9a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:43:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ea3d57661b8d14908ed631d7dc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:43:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=d63d93261b8d14908ed631d7dc4bcb18^sys_idNOT IN2f0f57e61b8d14908ed631d7dc4bcb4b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b28bdd21-7440-4ac5-ab0f-1d5188effe75</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>issue</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Issue</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Github - Create Project Card">d63d93261b8d14908ed631d7dc4bcb18</model>
+        <model_id>d63d93261b8d14908ed631d7dc4bcb18</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_d63d93261b8d14908ed631d7dc4bcb18</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:51:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2f0f57e61b8d14908ed631d7dc4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:51:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2f0f57e61b8d14908ed631d7dc4bcb4b"/>
+    <sys_hub_action_output action="delete_multiple" query="model=d63d93261b8d14908ed631d7dc4bcb18^sys_idNOT INea3d57661b8d14908ed631d7dc4bcbba"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=8762fb6d-67cd-47a5-a109-1b2ba2042cdb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>id</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Github - Create Project Card">d63d93261b8d14908ed631d7dc4bcb18</model>
+        <model_id>d63d93261b8d14908ed631d7dc4bcb18</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_d63d93261b8d14908ed631d7dc4bcb18</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:43:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ea3d57661b8d14908ed631d7dc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:43:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ea3d57661b8d14908ed631d7dc4bcbba"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ea3d57661b8d14908ed631d7dc4bcbba"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d63d93261b8d14908ed631d7dc4bcb18"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=d63d93261b8d14908ed631d7dc4bcb18"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_d63d93261b8d14908ed631d7dc4bcb18^sys_idNOT INa30f972a1b8d14908ed631d7dc4bcb9d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>issue</element>
+        <help/>
+        <hint/>
+        <label>Issue</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_d63d93261b8d14908ed631d7dc4bcb18</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:51:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a30f972a1b8d14908ed631d7dc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:51:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_d63d93261b8d14908ed631d7dc4bcb18"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_d63d93261b8d14908ed631d7dc4bcb18^sys_idNOT IN6a3d57661b8d14908ed631d7dc4bcbc0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>id</element>
+        <help/>
+        <hint/>
+        <label>ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_d63d93261b8d14908ed631d7dc4bcb18</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:43:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6a3d57661b8d14908ed631d7dc4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:43:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_d63d93261b8d14908ed631d7dc4bcb18"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=d63d93261b8d14908ed631d7dc4bcb18^sys_idNOT IN01b0e7ea1b8d14908ed631d7dc4bcbdf"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Github - Create Project Card">d63d93261b8d14908ed631d7dc4bcb18</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"01b0e7ea1b8d14908ed631d7dc4bcbdf","name":"plan"}}</plan>
+        <snapshot>6b031c761b0554908ed631d7dc4bcbd2</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>01b0e7ea1b8d14908ed631d7dc4bcbdf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 14:38:58</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation>This is used to add issue as card to a project</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This is used to add issue as card to a project on Github</description>
+        <internal_name>github__create_project_card</internal_name>
+        <label_cache>[{"name":"{{action.title}}","label":"action➛Issue ID","type":"action","ref":""},{"name":"{{action.message}}","label":"action➛Message","type":"action","ref":""},{"name":"{{action.body}}","label":"action➛Body","type":"action","ref":""},{"name":"{{action.issue_id}}","label":"action➛Issue ID","type":"action","ref":""},{"name":"{{action.issue}}","label":"action➛Issue","type":"action","ref":""},{"name":"{{step[6089d677-44f1-4576-bf2a-1dd03a432a8a].variable}}","label":"step➛Create Card➛variable","type":"step","ref":""},{"name":"{{step[6089d677-44f1-4576-bf2a-1dd03a432a8a].id}}","label":"step➛Create Card➛id","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Github - Create Project Card</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Github - Create Project Card">d63d93261b8d14908ed631d7dc4bcb18</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>78b0e7ea1b8d14908ed631d7dc4bcb6e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 14:38:57</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=78b0e7ea1b8d14908ed631d7dc4bcb6e"/>
+    <sys_element_mapping action="delete_multiple" query="id=78b0e7ea1b8d14908ed631d7dc4bcb6e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>id</field>
+        <id>78b0e7ea1b8d14908ed631d7dc4bcb6e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_id>78b0e7ea1b8d14908ed631d7dc4bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:58:56</sys_updated_on>
+        <table>var__m_sys_hub_action_output_78b0e7ea1b8d14908ed631d7dc4bcb6e</table>
+        <value>{{step[6089d677-44f1-4576-bf2a-1dd03a432a8a].id}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=78b0e7ea1b8d14908ed631d7dc4bcb6e^sys_idNOT IN38b0e7ea1b8d14908ed631d7dc4bcb77"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Github - Create Project Card">78b0e7ea1b8d14908ed631d7dc4bcb6e</action>
+        <cid>6089d677-44f1-4576-bf2a-1dd03a432a8a</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create Card</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>38b0e7ea1b8d14908ed631d7dc4bcb77</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:58:56</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=38b0e7ea1b8d14908ed631d7dc4bcb77"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>38b0e7ea1b8d14908ed631d7dc4bcb77</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_id>38b0e7ea1b8d14908ed631d7dc4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:58:56</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+    outputs.id = restCall();
+
+    function restCall() {
+        var id = '';
+        try {
+            var card = {
+                "content_id": inputs.issue,
+                "content_type":"Issue"
+            };
+            var rest = new sn_ws.RESTMessageV2('x_0586_til.Github', 'Create Project Card');
+            rest.setStringParameterNoEscape('column_id', '9419507');
+            rest.setRequestBody(JSON.stringify(card));
+            var response = rest.execute();
+            var httpStatus = response.getStatusCode();
+            if (httpStatus == "201") {
+                var result = JSON.parse(response.getBody());
+                id = result.id;
+            }
+        } catch (ex) {
+            //var message = ex.message;
+            id = "";
+        }
+
+        return id;
+    }
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>38b0e7ea1b8d14908ed631d7dc4bcb77</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_id>74b0e7ea1b8d14908ed631d7dc4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:58:56</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=38b0e7ea1b8d14908ed631d7dc4bcb77"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>38b0e7ea1b8d14908ed631d7dc4bcb77</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_id>30b0e7ea1b8d14908ed631d7dc4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:58:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>issue</field>
+        <id>38b0e7ea1b8d14908ed631d7dc4bcb77</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_id>b0b0e7ea1b8d14908ed631d7dc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:58:56</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_38b0e7ea1b8d14908ed631d7dc4bcb77</table>
+        <value>{{action.issue}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>38b0e7ea1b8d14908ed631d7dc4bcb77</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_id>f0b0e7ea1b8d14908ed631d7dc4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:58:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_38b0e7ea1b8d14908ed631d7dc4bcb77^id=38b0e7ea1b8d14908ed631d7dc4bcb77"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=38b0e7ea1b8d14908ed631d7dc4bcb77"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=38b0e7ea1b8d14908ed631d7dc4bcb77^sys_idNOT IN34b0e7ea1b8d14908ed631d7dc4bcb7a"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>issue</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>issue</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Card">38b0e7ea1b8d14908ed631d7dc4bcb77</model>
+        <model_id>38b0e7ea1b8d14908ed631d7dc4bcb77</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_38b0e7ea1b8d14908ed631d7dc4bcb77</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>34b0e7ea1b8d14908ed631d7dc4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:58:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=38b0e7ea1b8d14908ed631d7dc4bcb77^sys_idNOT IN38b0e7ea1b8d14908ed631d7dc4bcb81"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4ac31aba-ae42-4281-91ae-1306259e9efd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Card">38b0e7ea1b8d14908ed631d7dc4bcb77</model>
+        <model_id>38b0e7ea1b8d14908ed631d7dc4bcb77</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_38b0e7ea1b8d14908ed631d7dc4bcb77</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>38b0e7ea1b8d14908ed631d7dc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:58:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=38b0e7ea1b8d14908ed631d7dc4bcb77"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_38b0e7ea1b8d14908ed631d7dc4bcb77^sys_idNOT INbcb0e7ea1b8d14908ed631d7dc4bcb86"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>id</element>
+        <help/>
+        <hint/>
+        <label>id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_38b0e7ea1b8d14908ed631d7dc4bcb77</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bcb0e7ea1b8d14908ed631d7dc4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:58:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=78b0e7ea1b8d14908ed631d7dc4bcb6e^sys_idNOT IN78b0e7ea1b8d14908ed631d7dc4bcb6f"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b28bdd21-7440-4ac5-ab0f-1d5188effe75</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>issue</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Issue</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Github - Create Project Card">78b0e7ea1b8d14908ed631d7dc4bcb6e</model>
+        <model_id>78b0e7ea1b8d14908ed631d7dc4bcb6e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_78b0e7ea1b8d14908ed631d7dc4bcb6e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>78b0e7ea1b8d14908ed631d7dc4bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:58:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=78b0e7ea1b8d14908ed631d7dc4bcb6f"/>
+    <sys_hub_action_output action="delete_multiple" query="model=78b0e7ea1b8d14908ed631d7dc4bcb6e^sys_idNOT INf8b0e7ea1b8d14908ed631d7dc4bcb9a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=8762fb6d-67cd-47a5-a109-1b2ba2042cdb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>id</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Github - Create Project Card">78b0e7ea1b8d14908ed631d7dc4bcb6e</model>
+        <model_id>78b0e7ea1b8d14908ed631d7dc4bcb6e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_78b0e7ea1b8d14908ed631d7dc4bcb6e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f8b0e7ea1b8d14908ed631d7dc4bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:58:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f8b0e7ea1b8d14908ed631d7dc4bcb9a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f8b0e7ea1b8d14908ed631d7dc4bcb9a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=78b0e7ea1b8d14908ed631d7dc4bcb6e"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=78b0e7ea1b8d14908ed631d7dc4bcb6e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_78b0e7ea1b8d14908ed631d7dc4bcb6e^sys_idNOT IN70b0e7ea1b8d14908ed631d7dc4bcb75"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>issue</element>
+        <help/>
+        <hint/>
+        <label>Issue</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_78b0e7ea1b8d14908ed631d7dc4bcb6e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>70b0e7ea1b8d14908ed631d7dc4bcb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:58:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_78b0e7ea1b8d14908ed631d7dc4bcb6e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_78b0e7ea1b8d14908ed631d7dc4bcb6e^sys_idNOT INb0b0e7ea1b8d14908ed631d7dc4bcba0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>id</element>
+        <help/>
+        <hint/>
+        <label>ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_78b0e7ea1b8d14908ed631d7dc4bcb6e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 10:58:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b0b0e7ea1b8d14908ed631d7dc4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 10:58:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_78b0e7ea1b8d14908ed631d7dc4bcb6e"/>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>d63d93261b8d14908ed631d7dc4bcb18</sys_id>
+        <latest_snapshot>78b0e7ea1b8d14908ed631d7dc4bcb6e</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>

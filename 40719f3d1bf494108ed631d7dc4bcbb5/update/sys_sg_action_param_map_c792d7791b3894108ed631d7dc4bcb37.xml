@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Post)">4b92d7791b3894108ed631d7dc4bcb34</button>
+        <item_parameter display_value="Post status">8b92d7791b3894108ed631d7dc4bcb33</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-16 15:46:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c792d7791b3894108ed631d7dc4bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8b92d7791b3894108ed631d7dc4bcb33</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_c792d7791b3894108ed631d7dc4bcb37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-16 15:46:14</sys_updated_on>
+        <ui_parameter display_value="Status">8792d7791b3894108ed631d7dc4bcb36</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

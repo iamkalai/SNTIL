@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cert_instance">
+    <cert_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assign_to/>
+        <assign_to_empty>Create Unassigned Task</assign_to_empty>
+        <assign_to_group/>
+        <assignment_type>User Field</assignment_type>
+        <audit_type>data_cert</audit_type>
+        <business_calendar/>
+        <cert_audit_instance/>
+        <cert_condition/>
+        <cert_schedule display_value="Unix Server in South Africa">79550e559791300000f8d7b8fa297543</cert_schedule>
+        <complete_by>2020-06-03 08:00:08</complete_by>
+        <completed/>
+        <condition/>
+        <conditional>false</conditional>
+        <create_tasks>false</create_tasks>
+        <display_fields/>
+        <entered_time/>
+        <fields>cpu_speed,ram,cpu_core_count</fields>
+        <filter display_value="Unix Server in South Africa - 1">534202559791300000f8d7b8fa29753a</filter>
+        <group/>
+        <health_window>7</health_window>
+        <health_window_unit>days</health_window_unit>
+        <instructions><![CDATA[
+<p>The minimum requirements for Unix Servers are:</p>
+<ul><li> CPU Speed: 3ghz</li><li>Ram: 16gb</li><li>CPU Core Count: 4</li></ul>
+]]></instructions>
+        <is_building>false</is_building>
+        <last_run_date>2020-05-01 08:00:18</last_run_date>
+        <name>Unix Server in South Africa</name>
+        <next_scheduled_run/>
+        <number>CRTINST0010110</number>
+        <offset/>
+        <offset_type>0</offset_type>
+        <percent_complete>100</percent_complete>
+        <prev_last_run_date/>
+        <run_as display_value="Kalaiarasan P">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-06-01 08:00:08</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[ ]]></script>
+        <short_description/>
+        <stability_count>1</stability_count>
+        <state>3</state>
+        <sys_class_name>cert_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-01 08:00:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1f51c4031b0d94908ed631d7dc4bcb76</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Unix Server in South Africa</sys_name>
+        <sys_package display_value="Data Certification" source="com.snc.certification_v2">c4a54663db99a780d8ccd421cf9619fc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>cert_instance_1f51c4031b0d94908ed631d7dc4bcb76</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-01 08:00:11</sys_updated_on>
+        <table>cmdb_ci_unix_server</table>
+        <task_description>Remedy the discrepancies listed in the Audit Results below</task_description>
+        <template/>
+        <threshold_count>5</threshold_count>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <user display_value="Abel Tuter">62826bf03710200044e0bfc8bcbe5df1</user>
+    </cert_instance>
+</record_update>

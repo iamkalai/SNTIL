@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="TIL">0b92977d1bf494108ed631d7dc4bcbe5</applet_launcher>
+        <icon display_value="Home TIL">8f92977d1bf494108ed631d7dc4bcbe6</icon>
+        <label>TIL</label>
+        <roles>x_0586_til.til user,x_0586_til.til admin</roles>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-16 15:46:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4f92977d1bf494108ed631d7dc4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_4f92977d1bf494108ed631d7dc4bcbe6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-16 15:46:14</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user>admin</basic_auth_user>
+        <content/>
+        <function_name>Get Project Columns</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Github [ Get Project Columns ]</qualified_name>
+        <rest_endpoint>https://api.github.com/projects/${project_id}/columns</rest_endpoint>
+        <rest_message display_value="Github">615eee621b4914908ed631d7dc4bcbc8</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 08:21:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6f9cfaaa1b8914908ed631d7dc4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Project Columns</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_rest_message_fn_6f9cfaaa1b8914908ed631d7dc4bcb35</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 08:21:56</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_rest_message_fn_6f9cfaaa1b8914908ed631d7dc4bcb35</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user>admin</basic_auth_user><content/><function_name>Get Project Columns</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Github [ Get Project Columns ]</qualified_name><rest_endpoint>https://api.github.com/projects/${project_id}/columns</rest_endpoint><rest_message display_value="Github">615eee621b4914908ed631d7dc4bcbc8</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-31 08:21:56</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>6f9cfaaa1b8914908ed631d7dc4bcb35</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Get Project Columns</sys_name><sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope><sys_update_name>sys_rest_message_fn_6f9cfaaa1b8914908ed631d7dc4bcb35</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-31 08:21:56</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>1126561986</payload_hash>
+        <record_name>Get Project Columns</record_name>
+        <reverted_from/>
+        <source>48711bf51b3894108ed631d7dc4bcb6b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 08:21:56</sys_created_on>
+        <sys_id>b4ccb22e1b8914908ed631d7dc4bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17269d2b4eb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 08:21:56</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>bcccb22e3d8914906120b94e1167d605</update_guid>
+        <update_guid_history>bcccb22e3d8914906120b94e1167d605:1126561986</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 08:27:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>34652844d1c34e1ca421e863b9b08924</sys_id>
+        <sys_metadata>6f9cfaaa1b8914908ed631d7dc4bcb35</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Project Columns</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_parent display_value="Github">615eee621b4914908ed631d7dc4bcbc8</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_scope_delete display_value="">4301b2ee7f6c4b72989bd2205918fab1</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_6f9cfaaa1b8914908ed631d7dc4bcb35</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_6f9cfaaa1b8914908ed631d7dc4bcb35">b4ccb22e1b8914908ed631d7dc4bcb06</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 08:27:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

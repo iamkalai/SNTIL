@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Post" max_length="40" name="x_0586_til_post" sizeclass="81" type="collection">
+        <element label="Category" mandatory="true" max_length="32" name="category" reference="u_custom_choices" reference_qual="u_active=true^u_field=category^EQ" reference_qual_condition="u_active=true^u_field=category^EQ" type="reference"/>
+        <element label="Github ID" max_length="40" name="github_id" type="integer"/>
+        <element label="Github URL" max_length="100" name="github_url" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Message" mandatory="true" max_length="4000" name="message" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Invalid" sequence="0" value="invalid"/>
+                <element inactive_on_update="false" label="New" sequence="1" value="new"/>
+                <element inactive_on_update="false" label="Old" sequence="2" value="old"/>
+                <element inactive_on_update="false" label="Error" sequence="3" value="error"/>
+            </choice>
+        </element>
+        <element label="Title" mandatory="true" max_length="100" name="title" type="string"/>
+        <index name="index">
+            <element name="category"/>
+        </index>
+    </element>
+</database>

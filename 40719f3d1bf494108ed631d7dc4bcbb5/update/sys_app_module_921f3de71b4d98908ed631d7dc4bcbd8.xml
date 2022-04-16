@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="TIL">bf72d7b51b3894108ed631d7dc4bcbdf</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>All</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_0586_til_post</name>
+        <order>4</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>https://github.com/iamkalai/SNTIL/projects/2</query>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-03 06:26:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>921f3de71b4d98908ed631d7dc4bcbd8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Board</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_app_module_921f3de71b4d98908ed631d7dc4bcbd8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-04 14:48:40</sys_updated_on>
+        <timeline_page/>
+        <title>Board</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name>til</window_name>
+    </sys_app_module>
+</record_update>

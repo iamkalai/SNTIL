@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_0586_til.OAuthGitHubHandler</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>OAuthGitHubHandler</name>
+        <script><![CDATA[var OAuthGitHubHandler = Class.create();
+OAuthGitHubHandler.prototype = Object.extendsObject(global.OAuthUtil,  {
+	// Override postprocessAccessToken method. GitHub returns a urlencoded
+	// body, so we need to break this apart and extract the values. 
+	postprocessAccessToken: function(accessTokenResponse) {
+		var contentType = accessTokenResponse.getContentType();
+		var contentBody = accessTokenResponse.getBody(); 
+		var paramMap = accessTokenResponse.getparameters();
+		var params = contentBody.split('&'); 
+		var parts; 
+		
+		params.forEach(function(param) {
+			parts = param.split('=');
+			paramMap.put(parts[0], parts[1]);
+		});
+		
+		// GitHub tokens do not expire, hardcode expiration to something far away
+		paramMap.put('expires_in', '365246060'); 
+	},
+	
+	type: 'OAuthGitHubHandler'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 07:32:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b34172661b4914908ed631d7dc4bcb47</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OAuthGitHubHandler</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_script_include_b34172661b4914908ed631d7dc4bcb47</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 07:34:02</sys_updated_on>
+    </sys_script_include>
+</record_update>

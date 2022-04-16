@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="DELETE">
+        <name>Accept</name>
+        <rest_message_function display_value="Get Project Columns">6f9cfaaa1b8914908ed631d7dc4bcb35</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 08:24:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5d3db22e1b8914908ed631d7dc4bcb1c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Accept</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_5d3db22e1b8914908ed631d7dc4bcb1c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 08:25:33</sys_updated_on>
+        <value>application/vnd.github.inertia-preview+json</value>
+    </sys_rest_message_fn_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_rest_message_fn_headers_5d3db22e1b8914908ed631d7dc4bcb1c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Accept</name><rest_message_function display_value="Get Project Columns">6f9cfaaa1b8914908ed631d7dc4bcb35</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-31 08:24:45</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>5d3db22e1b8914908ed631d7dc4bcb1c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Accept</sys_name><sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope><sys_update_name>sys_rest_message_fn_headers_5d3db22e1b8914908ed631d7dc4bcb1c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-31 08:25:33</sys_updated_on><value>application/vnd.github.inertia-preview+json</value></sys_rest_message_fn_headers></record_update>]]></payload>
+        <payload_hash>-1158690993</payload_hash>
+        <record_name>Accept</record_name>
+        <reverted_from/>
+        <source>48711bf51b3894108ed631d7dc4bcb6b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 08:25:33</sys_created_on>
+        <sys_id>029d362e1b8914908ed631d7dc4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17269d6075e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 08:25:33</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>c69d362e6a891490a27579d0adeafa63</update_guid>
+        <update_guid_history>c69d362e6a891490a27579d0adeafa63:-1158690993,926dbe2ecc891490ee91718dfc147018:-566148157</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 08:27:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_rest_message_fn_headers">sys_rest_message_fn_headers</sys_db_object>
+        <sys_id>417986aebc3d480a91eaae150cd42e04</sys_id>
+        <sys_metadata>5d3db22e1b8914908ed631d7dc4bcb1c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accept</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_scope_delete display_value="">4301b2ee7f6c4b72989bd2205918fab1</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_headers_5d3db22e1b8914908ed631d7dc4bcb1c</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_headers_5d3db22e1b8914908ed631d7dc4bcb1c">029d362e1b8914908ed631d7dc4bcb64</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 08:27:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

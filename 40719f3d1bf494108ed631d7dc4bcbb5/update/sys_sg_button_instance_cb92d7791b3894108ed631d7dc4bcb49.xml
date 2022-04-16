@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Edit Button (Post)">8792d7791b3894108ed631d7dc4bcb47</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Edit</label>
+        <location>top</location>
+        <name>Edit (Post)</name>
+        <order/>
+        <parent>8792977d1bf494108ed631d7dc4bcbeb</parent>
+        <parent_table>sys_sg_form_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-16 15:46:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cb92d7791b3894108ed631d7dc4bcb49</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Edit (Post)</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_sg_button_instance_cb92d7791b3894108ed631d7dc4bcb49</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-02-04 08:43:24</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+</record_update>

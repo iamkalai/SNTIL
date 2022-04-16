@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="INSERT_OR_UPDATE">
+        <oauth_entity_profile display_value="Github default_profile">6eeb62ae1b0914908ed631d7dc4bcb09</oauth_entity_profile>
+        <oauth_entity_scope display_value="Github Repo">8c9fe6a21b4914908ed631d7dc4bcb49</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 07:26:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5b10fe261b4914908ed631d7dc4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6eeb62ae1b0914908ed631d7dc4bcb09</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_5b10fe261b4914908ed631d7dc4bcb74</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-31 07:26:51</sys_updated_on>
+    </oauth_entity_profile_scope>
+</record_update>
