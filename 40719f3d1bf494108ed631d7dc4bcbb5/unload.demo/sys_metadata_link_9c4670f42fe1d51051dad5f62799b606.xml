@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>c4251b371bd150108ed631d7dc4bcb2d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Tricks">a8c6c0be1b8154908ed631d7dc4bcbef</category>
+        <github_id>63</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/63</github_url>
+        <message>While creating a client callable script include, the general practice is to avoid overriding initialize method, which is also stated in the official documentation.&#13;
+&#13;
+https://docs.servicenow.com/bundle/orlando-application-development/page/script/ajax/topic/p_AJAX.html&#13;
+&#13;
+But, in case you do want to override the initialize method for some reason, you can do so easily by following the below sample. You just need to add few extra parameters to your initialize method and invoke AbstractAjaxProcessor's initialize method.&#13;
+&#13;
+```&#13;
+//Sample script include&#13;
+var DoStuff = Class.create();&#13;
+DoStuff.prototype = Object.extendsObject(AbstractAjaxProcessor, {&#13;
+&#13;
+    initialize: function(request, responseXML, gc) {&#13;
+        AbstractAjaxProcessor.prototype.initialize.call(this, request, responseXML, gc);&#13;
+        this.stuff = 'something';&#13;
+    },&#13;
+&#13;
+    print: function() {&#13;
+        return this.stuff;&#13;
+    },&#13;
+});```&#13;
+&#13;
+```&#13;
+//Sample script to test script include works&#13;
+var glideAjax = new GlideAjax('DoStuff');&#13;
+glideAjax.addParam('sysparm_name','print');&#13;
+glideAjax.getXMLWait();&#13;
+alert(glideAjax.getAnswer());&#13;
+```</message>
+        <number>TIL0001062</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-16 17:38:02</sys_created_on>
+        <sys_id>c4251b371bd150108ed631d7dc4bcb2d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 11:33:43</sys_updated_on>
+        <title>Client Callable Script Include With Initialization</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:20:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9c4670f42fe1d51051dad5f62799b606</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001062</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_9c4670f42fe1d51051dad5f62799b606</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:20:53</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

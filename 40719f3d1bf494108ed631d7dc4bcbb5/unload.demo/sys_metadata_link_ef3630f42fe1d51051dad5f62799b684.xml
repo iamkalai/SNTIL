@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>ae45563d1b4adc108ed631d7dc4bcbd2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Tricks">a8c6c0be1b8154908ed631d7dc4bcbef</category>
+        <github_id>75</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/75</github_url>
+        <message>Use gs.print(gs.tableExists('incident'));</message>
+        <number>TIL0001076</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-17 14:37:23</sys_created_on>
+        <sys_id>ae45563d1b4adc108ed631d7dc4bcbd2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-20 20:07:51</sys_updated_on>
+        <title>Check if the table name is valid</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:20:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ef3630f42fe1d51051dad5f62799b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001076</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_ef3630f42fe1d51051dad5f62799b684</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:20:50</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

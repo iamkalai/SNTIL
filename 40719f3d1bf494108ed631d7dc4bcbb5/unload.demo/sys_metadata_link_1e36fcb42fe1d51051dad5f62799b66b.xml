@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>49cce2062fab011051dad5f62799b62d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Tricks">a8c6c0be1b8154908ed631d7dc4bcbef</category>
+        <github_id>127</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/127</github_url>
+        <message>ServiceNow had batch API which you can use to send a single request containing multiple API calls.&#13;
+&#13;
+Blog - https://community.servicenow.com/community?id=community_article&amp;sys_id=28eb5cfddb2e8150aa66a9fb139619f6&#13;
+Documentation - https://docs.servicenow.com/en-US/bundle/sandiego-application-development/page/integrate/inbound-rest/concept/batch-api.html</message>
+        <number>TIL0001135</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-20 13:06:46</sys_created_on>
+        <sys_id>49cce2062fab011051dad5f62799b62d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-30 19:57:42</sys_updated_on>
+        <title>Batch API</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:20:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1e36fcb42fe1d51051dad5f62799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001135</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_1e36fcb42fe1d51051dad5f62799b66b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:20:45</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

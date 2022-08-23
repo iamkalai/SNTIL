@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>287dbe3e1b8294508ed631d7dc4bcb6c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Tricks">a8c6c0be1b8154908ed631d7dc4bcbef</category>
+        <github_id>76</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/76</github_url>
+        <message>There is a table called cool_thing and it stores some cool tricks that is displayed using the UI page '10_cool_things'.&#13;
+URL - Instance/10_cool_things.do</message>
+        <number>TIL0001077</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-20 20:07:40</sys_created_on>
+        <sys_id>287dbe3e1b8294508ed631d7dc4bcb6c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:53:15</sys_updated_on>
+        <title>10 Cool things</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:20:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9636fcb42fe1d51051dad5f62799b657</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001077</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_9636fcb42fe1d51051dad5f62799b657</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:20:44</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

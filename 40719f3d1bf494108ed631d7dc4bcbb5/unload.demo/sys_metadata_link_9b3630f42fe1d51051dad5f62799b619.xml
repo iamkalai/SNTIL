@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>999b46052fcb011051dad5f62799b6ab</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Tricks">a8c6c0be1b8154908ed631d7dc4bcbef</category>
+        <github_id>107</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/107</github_url>
+        <message>Use the following script to send email dynamically&#13;
+```javascript&#13;
+var mail = new GlideEmailOutbound();&#13;
+mail.setSubject('Hello darkness, my old friend');&#13;
+mail.addRecipient('sn@sn.com');&#13;
+mail.addAddress('cc', 'abc@abc.com');&#13;
+mail.setBody("I've come to talk with you again");&#13;
+mail.save();&#13;
+```&#13;
+&#13;
+This does not support attachment - https://support.servicenow.com/kb?id=kb_article_view&amp;sysparm_article=KB0789188&#13;
+Documentation: https://developer.servicenow.com/dev.do#!/reference/api/quebec/server/r_ScopedGlideEmailOutbound-getSubject</message>
+        <number>TIL0001111</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-22 11:35:54</sys_created_on>
+        <sys_id>999b46052fcb011051dad5f62799b6ab</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:26:18</sys_updated_on>
+        <title>Send email via script</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:20:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9b3630f42fe1d51051dad5f62799b619</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001111</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_9b3630f42fe1d51051dad5f62799b619</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:20:48</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

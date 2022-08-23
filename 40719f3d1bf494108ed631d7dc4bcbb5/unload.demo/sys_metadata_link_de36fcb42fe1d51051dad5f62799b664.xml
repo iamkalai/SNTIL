@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>4824a5e52f54e01051dad5f62799b623</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="OOB">7cb680be1b8154908ed631d7dc4bcb37</category>
+        <github_id>78</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/78</github_url>
+        <message>Have you seen the object dump of transform map source variable? If you are involved in building transform maps that require good amount of logging, there are quite a lot of useful attributes available for your usage.&#13;
+&#13;
+eg: source.setValue("sys_import_state_comment", "Your custom error here");&#13;
+&#13;
+sys_import_row - Row number of import row&#13;
+sys_import_state_comment - Add comment in import row&#13;
+sys_row_error - Track error message/code in sys_import_set_row_error table&#13;
+sys_import_state - State of import row (Inserted, Updated)&#13;
+sys_id - Import set row sys_id&#13;
+sys_import_set - Import set sys_id&#13;
+import_set_run - Import set run sys_id&#13;
+sys_transform_map - Transform map sys_id&#13;
+sys_target_table - Target table of transform&#13;
+sys_target_sys_id - Target record sys_id&#13;
+sys_class_name - Source table or import table name</message>
+        <number>TIL0001079</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-05 12:45:16</sys_created_on>
+        <sys_id>4824a5e52f54e01051dad5f62799b623</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-31 06:12:28</sys_updated_on>
+        <title>Transform map script variables</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:20:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>de36fcb42fe1d51051dad5f62799b664</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001079</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_de36fcb42fe1d51051dad5f62799b664</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:20:45</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

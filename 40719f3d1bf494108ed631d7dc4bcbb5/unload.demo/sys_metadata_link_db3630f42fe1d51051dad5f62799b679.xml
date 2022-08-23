@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>a182ff4c1bed90108ed631d7dc4bcbbd</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Tricks">a8c6c0be1b8154908ed631d7dc4bcbef</category>
+        <github_id>64</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/64</github_url>
+        <message>If you want execute a script asynchronously or execute a script once, you can make use of ServiceNow's ScheduleOnce script.  In the below script, you can replace the call of gs.log with any server side script call (like calling a function of some script include).&#13;
+&#13;
+```&#13;
+//Sample&#13;
+var scheduleJob = new global.ScheduleOnce();&#13;
+scheduleJob.script = "gs.log('Test Log','Adhoc')";&#13;
+scheduleJob.setLabel("Adhoc Job");&#13;
+scheduleJob.schedule();&#13;
+```&#13;
+&#13;
+Note: Will not work in scope.</message>
+        <number>TIL0001063</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-17 14:28:50</sys_created_on>
+        <sys_id>a182ff4c1bed90108ed631d7dc4bcbbd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 16:39:52</sys_updated_on>
+        <title>Execute Script Asynchronously</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:20:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>db3630f42fe1d51051dad5f62799b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001063</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_db3630f42fe1d51051dad5f62799b679</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:20:49</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

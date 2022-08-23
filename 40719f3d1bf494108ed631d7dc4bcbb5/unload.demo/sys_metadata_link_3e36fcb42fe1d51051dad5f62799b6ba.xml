@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>70d0a70b1bb89c108ed631d7dc4bcb84</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Note">83f60c3e1b8154908ed631d7dc4bcbaa</category>
+        <github_id>42</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/42</github_url>
+        <message>While JSUtil.notNil is awesome, do keep in mind that it does not work for empty object. Use JSUtil.isEmpty for checking objects.&#13;
+&#13;
+Sample:&#13;
+gs.print("This does not work for object JSUtil.notNil({}):"+JSUtil.notNil({})); &#13;
+gs.print("This works for empty object JSUtil.isEmpty({}):"+JSUtil.isEmpty({})); &#13;
+&#13;
+var obj = {a:1};&#13;
+gs.print("Not a empty object JSUtil.isEmpty(obj):"+JSUtil.isEmpty(obj));</message>
+        <number>TIL0001036</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-20 14:00:48</sys_created_on>
+        <sys_id>70d0a70b1bb89c108ed631d7dc4bcb84</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-03 05:52:37</sys_updated_on>
+        <title>Empty Object Check</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:20:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3e36fcb42fe1d51051dad5f62799b6ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001036</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_3e36fcb42fe1d51051dad5f62799b6ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:20:47</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

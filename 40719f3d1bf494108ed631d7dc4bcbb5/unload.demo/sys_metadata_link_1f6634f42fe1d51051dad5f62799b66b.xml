@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>0f835fb91b3894108ed631d7dc4bcbbc</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Note">83f60c3e1b8154908ed631d7dc4bcbaa</category>
+        <github_id>14</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/14</github_url>
+        <message>The evil of toString() - "Regex strikes back"&#13;
+&#13;
+Spent few hours tracking this down as Replace method won't support regex for objects. What a fun Friday this was. &#13;
+&#13;
+Simplified code:&#13;
+&#13;
+var uri = gs.action.getGlideURI()&#13;
+var object = uri.toString();&#13;
+var string = uri+"";&#13;
+&#13;
+gs.print(uri);&#13;
+//gs.print(object.replace(/sys_scripts/,'')); //throws an error. &#13;
+gs.print(string.replace(/sys.scripts/,''));&#13;
+&#13;
+gs.print(typeof object);&#13;
+gs.print(typeof string);&#13;
+</message>
+        <number>TIL0001007</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-16 15:50:20</sys_created_on>
+        <sys_id>0f835fb91b3894108ed631d7dc4bcbbc</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-03 05:52:37</sys_updated_on>
+        <title>evil of toString()</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:21:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1f6634f42fe1d51051dad5f62799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001007</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_1f6634f42fe1d51051dad5f62799b66b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:21:38</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

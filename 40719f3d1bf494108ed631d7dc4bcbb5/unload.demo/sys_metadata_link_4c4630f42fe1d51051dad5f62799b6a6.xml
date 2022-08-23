@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>b971cabd1be55c108ed631d7dc4bcb9a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Note">83f60c3e1b8154908ed631d7dc4bcbaa</category>
+        <github_id>66</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/66</github_url>
+        <message>Do keep in mind that for true/false field, **getValue()** will return 0 or 1 and not true/false.&#13;
+&#13;
+```javascript&#13;
+var gr = new GlideRecord("incident");&#13;
+gr.addEncodedQuery("number=INC0000002");&#13;
+gr.query();&#13;
+if (gr.next()) {&#13;
+    gs.print("gr.getValue('active') returns: " + gr.getValue('active') + " of type: " + typeof gr.getValue('active'));&#13;
+    gs.print("gr.active returns: " + gr.active + " of type: " + typeof gr.active);&#13;
+    gs.print("gr.active.toString() returns: " + gr.active.toString() + " of type: " + typeof gr.active.toString());&#13;
+    gs.print('(gr.active + "") returns: ' + (gr.active + "") + " of type: " + typeof (gr.active + ""));&#13;
+}&#13;
+```&#13;
+&#13;
+**NOTE**: If a field is unique and we try to update non unique value, no error message is received but the record is not updated. Hence  unique seems to be implemented at DB level</message>
+        <number>TIL0001067</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 16:39:45</sys_created_on>
+        <sys_id>b971cabd1be55c108ed631d7dc4bcb9a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 15:51:31</sys_updated_on>
+        <title>getValue() for true/false field</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:20:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4c4630f42fe1d51051dad5f62799b6a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001067</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_4c4630f42fe1d51051dad5f62799b6a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:20:52</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>cc1fd6ca2f6b011051dad5f62799b6a0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Note">83f60c3e1b8154908ed631d7dc4bcbaa</category>
+        <github_id>126</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/126</github_url>
+        <message>ServiceNow semaphore are stored in sys_semaphore table. Default and API semaphore are different.</message>
+        <number>TIL0001134</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-20 12:07:38</sys_created_on>
+        <sys_id>cc1fd6ca2f6b011051dad5f62799b6a0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-30 19:57:42</sys_updated_on>
+        <title>ServiceNow semaphores</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:20:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e44670f42fe1d51051dad5f62799b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001134</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_e44670f42fe1d51051dad5f62799b637</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:20:54</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

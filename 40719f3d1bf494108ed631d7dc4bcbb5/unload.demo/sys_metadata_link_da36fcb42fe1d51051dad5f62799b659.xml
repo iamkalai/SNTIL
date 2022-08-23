@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>2afe78da1bf958908ed631d7dc4bcb64</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Note">83f60c3e1b8154908ed631d7dc4bcbaa</category>
+        <github_id>70</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/70</github_url>
+        <message>Specifies whether the instance checks the condition statement of async business rules (the When field is set to async) prior to running the business rule. If true, the instance evaluates the async business rule conditions a second time before running the rule. If false or missing, the instance does not evaluate the conditions a second time.&#13;
+&#13;
+FYI - https://docs.servicenow.com/bundle/orlando-platform-administration/page/administer/reference-pages/reference/r_AvailableSystemProperties.html</message>
+        <number>TIL0001071</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 11:21:30</sys_created_on>
+        <sys_id>2afe78da1bf958908ed631d7dc4bcb64</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-09 06:52:55</sys_updated_on>
+        <title>glide.businessrule.async_condition_check</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:20:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>da36fcb42fe1d51051dad5f62799b659</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001071</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_da36fcb42fe1d51051dad5f62799b659</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:20:44</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

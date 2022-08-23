@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>1974dfb91b3894108ed631d7dc4bcb71</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Note">83f60c3e1b8154908ed631d7dc4bcbaa</category>
+        <github_id>23</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/23</github_url>
+        <message>GlideAggregate groups by the aggregated column by default (when using functions MAX, MIN or AVG).&#13;
+So don't forget to use its setGroup method. &#13;
+&#13;
+Sample in comments section.&#13;
+Credits: @János Szentpáli&#13;
+&#13;
+var cmn_location_Ga = new GlideAggregate('cmn_location');&#13;
+cmn_location_Ga.addNotNullQuery('u_node_id');&#13;
+cmn_location_Ga.addAggregate('MAX', 'u_node_id');&#13;
+cmn_location_Ga.setGroup(false);&#13;
+cmn_location_Ga._query();&#13;
+if (cmn_location_Ga._next()) {&#13;
+	return +cmn_location_Ga.getAggregate('MAX', 'u_node_id');&#13;
+} else {&#13;
+	return 0;&#13;
+}</message>
+        <number>TIL0001016</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-16 15:54:19</sys_created_on>
+        <sys_id>1974dfb91b3894108ed631d7dc4bcb71</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-03 05:52:37</sys_updated_on>
+        <title>GlideAggregate default groupby</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:21:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>936634f42fe1d51051dad5f62799b66e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001016</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_936634f42fe1d51051dad5f62799b66e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:21:38</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>48e06b0b1bf89c108ed631d7dc4bcb7d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Misc">06a6407e1b8154908ed631d7dc4bcb93</category>
+        <github_id>43</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/43</github_url>
+        <message>If you want to know the connection speed between your computer and your instance, you can do so by visiting the below URL.&#13;
+&#13;
+yourinstance/connection_test.do&#13;
+&#13;
+Credit: @Woz</message>
+        <number>TIL0001037</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-20 14:01:03</sys_created_on>
+        <sys_id>48e06b0b1bf89c108ed631d7dc4bcb7d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-03 05:52:37</sys_updated_on>
+        <title>Computer-Instance Connection Speed</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:20:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1a36fcb42fe1d51051dad5f62799b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001037</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_1a36fcb42fe1d51051dad5f62799b669</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:20:45</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

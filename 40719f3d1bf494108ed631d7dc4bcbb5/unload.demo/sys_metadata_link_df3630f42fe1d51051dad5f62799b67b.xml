@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>a22912471b6954508ed631d7dc4bcb8b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Note">83f60c3e1b8154908ed631d7dc4bcbaa</category>
+        <github_id>67</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/67</github_url>
+        <message>```javascript&#13;
+var grMultipleUpdate = new GlideMultipleUpdate("incident");&#13;
+grMultipleUpdate.addQuery("active", "true");&#13;
+grMultipleUpdate.setValue("short_description", gs.nowDateTime());&#13;
+grMultipleUpdate.execute();&#13;
+```&#13;
+&#13;
+**Note:** &#13;
+- addEncodedQuery does not work but  addQueryString does work.&#13;
+- Data policies also do not work when using GlideMultipleUpdate.&#13;
+- Unique column is enforced but no error message is thrown when non unique value is being updated. Gliderecord throws unique violation error.&#13;
+- getUpdateCount is used to count of records being updated.</message>
+        <number>TIL0001068</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 15:35:27</sys_created_on>
+        <sys_id>a22912471b6954508ed631d7dc4bcb8b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-04 14:08:13</sys_updated_on>
+        <title>Business rules do no run when using GlideMultipleUpdate</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:20:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>df3630f42fe1d51051dad5f62799b67b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001068</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_df3630f42fe1d51051dad5f62799b67b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:20:49</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>

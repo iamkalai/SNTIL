@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>d494133d1b3894108ed631d7dc4bcb6e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0586_til_post">
+    <x_0586_til_post action="INSERT_OR_UPDATE">
+        <category display_value="Documentation">0e7b4cf21bc154908ed631d7dc4bcb3b</category>
+        <github_id>24</github_id>
+        <github_url>https://github.com/iamkalai/SNTIL/issues/24</github_url>
+        <message>Ever wish to see all the publicly available ServiceNow service portals in one place? If yes, link is in the comment section.&#13;
+&#13;
+Credits: Nick Belli.&#13;
+https://github.com/NickBelli/ServiceNowResources</message>
+        <number>TIL0001017</number>
+        <status>old</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-16 15:54:47</sys_created_on>
+        <sys_id>d494133d1b3894108ed631d7dc4bcb6e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-03 05:52:37</sys_updated_on>
+        <title>Service Portals Samples</title>
+    </x_0586_til_post>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 17:21:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6b6678f42fe1d51051dad5f62799b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL0001017</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_metadata_link_6b6678f42fe1d51051dad5f62799b609</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 17:21:39</sys_updated_on>
+        <tablename>x_0586_til_post</tablename>
+    </sys_metadata_link>
+</record_update>
