@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_target">
+    <sys_export_target action="INSERT_OR_UPDATE">
+        <description/>
+        <file_path>/til</file_path>
+        <method>File on MID Server</method>
+        <mid_server display_value="ServiceNowMid">630fde8d2f4a411051dad5f62799b67d</mid_server>
+        <name>TIL export_ServiceNowMid</name>
+        <sys_class_name>sys_export_target</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 16:03:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fa842c702f61d51051dad5f62799b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TIL export_ServiceNowMid</sys_name>
+        <sys_package display_value="TIL" source="x_0586_til">40719f3d1bf494108ed631d7dc4bcbb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TIL">40719f3d1bf494108ed631d7dc4bcbb5</sys_scope>
+        <sys_update_name>sys_export_target_fa842c702f61d51051dad5f62799b6f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 16:03:31</sys_updated_on>
+    </sys_export_target>
+</record_update>
